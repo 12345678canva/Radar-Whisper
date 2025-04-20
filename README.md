@@ -1,6 +1,6 @@
 ![Radar-Whisper](Banner.png)
+Version 0.9.0 (INCOMPLETE BETA)
 
-|Version 0.9.0 (INCOMPLETE BETA)|
 > ⚠️ **IMPORTANT:** Radar-Whisper is not ready for general use. This version is a **BETA**.
 
 **Radar Whisper** is a modern and intuitive music player application, designed with a clean, stylized aesthetic and a smooth experience powered by **PyQt5**. Although it already has a functional foundation, this **0.9.0** version is still in development and includes **incomplete features**, as well as **bugs** and runtime errors. Therefore, it is recommended for **evaluation and testing purposes only**.

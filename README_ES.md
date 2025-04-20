@@ -70,7 +70,7 @@ Radar-Whisper/
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/radar-whisper.git
+git clone https://github.com/Ivan-Ayub97/Radar-Whisper.git
 cd radar-whisper
 ```
 
@@ -119,7 +119,7 @@ python main.py
 
 ### Formas de contribuir
 
-- Reporta errores abriendo un [Issue](https://github.com/tu-usuario/radar-whisper/issues)
+- Reporta errores abriendo un [Issue](https://github.com/Ivan-Ayub97/Radar-Whisper/issues)
 - Mejora funciones incompletas
 - Refactoriza código
 - Traduce la interfaz
@@ -156,7 +156,7 @@ Este proyecto está licenciado bajo los términos de la **[Licencia MIT](LICENSE
 ## 👤 Autor
 
 - **Desarrollador principal**: [Ivan E. C. Ayub](https://github.com/Ivan-Ayub97)
-- **Contacto**: <negroayub97@email.com> (opcional)
+- **Contacto**: <negroayub97@gmail.com> (opcional)
 - **Tecnologías usadas**: Python 3, PyQt5, Mutagen
 
 ---

@@ -6,9 +6,12 @@
 
 > ⚠️ **IMPORTANT:** Radar Whisper is not ready for general use. This version is a **BETA**.
 
-- 🇪🇸 [README en Español](README_ES.md)
+---
 
-> Este proyecto incluye documentación en **Español** para facilitar su comprensión y uso por parte de una comunidad más amplia de usuarios y desarrolladores. | This project includes documentation in **Spanish** to facilitate understanding and use by a broader community of users and developers.
+##🇪🇸 [README en Español](README_ES.md)
+
+> Este proyecto incluye documentación en **Español** para facilitar su comprensión y uso por parte de una comunidad más amplia de usuarios y desarrolladores.
+> This project includes documentation in **Spanish** to facilitate understanding and use by a broader community of users and developers.
 
 ---
 

